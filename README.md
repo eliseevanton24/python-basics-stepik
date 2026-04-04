@@ -68,8 +68,6 @@ random.choice([1,2,3])
 random.shuffle(list)
 ```
 
-
-```markdown
 ## Мини-проекты
 
 - [Числовая угадайка](mini_projects/Number_Guessing_Game)
