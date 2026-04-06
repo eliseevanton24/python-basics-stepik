@@ -101,5 +101,5 @@ random.random()         # случайное float от 0.0 до 1.0
 - [Магический шар](mini_projects/Magic_8_Ball)
 - [Генератор безопасных паролей](mini_projects/Secure_Password_Generator)
 - [Шифр Цезаря](mini_projects/Caesar_Cipher)
-- [Калькулятор](mini_projects/Number_Base_Converter)
+- [Калькулятор систем счисления](mini_projects/Number_Base_Converter)
 - [Угадайка слов](mini_projects/Word_Guessing_Game)
