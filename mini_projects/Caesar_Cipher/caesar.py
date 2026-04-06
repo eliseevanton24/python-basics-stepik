@@ -49,3 +49,7 @@ if enc_or_dec == "e":
     print(encrypt(text, k, language))
 elif enc_or_dec == "d":
     print(decrypt(text, k, language))
+
+
+
+
