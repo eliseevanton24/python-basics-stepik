@@ -80,7 +80,6 @@ def play(word):
     guessed_words = []
     tries = 6
 
-    # начало игры
     print("Давайте играть в угадайку слов!")
     print(display_hangman(tries))
     print(word_completion)
@@ -92,11 +91,11 @@ def play(word):
             if guess in guessed_letters:
                 print("Вы уже называли эту букву:", guess)
             elif guess not in word:
-                print(f"Буквы {guess} нет в слове:")
+                print("Буквы нет в слове:", guess)
                 tries -= 1
                 guessed_letters.append(guess)
             else:
-                print(f"Отлично! Буква {guess} есть в слове:")
+                print("Отлично! Буква есть в слове:", guess)
                 guessed_letters.append(guess)
                 word_as_list = list(word_completion)
                 indices = [i for i in range(len(word)) if word[i] == guess]
@@ -123,11 +122,18 @@ def play(word):
         print(display_hangman(tries))
         print(word_completion)
 
-    # конец игры
     if guessed:
         print("Поздравляем, вы угадали слово! Вы победили!")
     else:
         print(f"Попытки закончились. Загаданное слово: {word}")
 
-word = random_word()
-play(word)
+
+while True:
+    word = random_word()
+    play(word)
+
+    again = input("Хотите сыграть ещё раз? (да/нет): ").lower()
+    if again != "да":
+        break
+
+print("Спасибо за игру! До встречи!")
