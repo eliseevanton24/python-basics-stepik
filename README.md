@@ -1,5 +1,3 @@
-# Python Cheat Sheet (Stepik)
-
 Краткая шпаргалка по основам Python.
 
 ---
