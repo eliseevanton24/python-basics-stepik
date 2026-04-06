@@ -114,4 +114,4 @@ random.random()         # случайное float от 0.0 до 1.0
 - [Генератор безопасных паролей](mini_projects/Secure_Password_Generator)
 - [Шифр Цезаря](mini_projects/Caesar_Cipher)
 - [Калькулятор систем счисления](mini_projects/Number_Base_Converter)
-- [Угадайка слов](mini_projects/Word_Guessing_Game)
+- [Угадайка слов](mini_projects/Hangman)
